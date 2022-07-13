@@ -10,9 +10,12 @@ class Counter extends Component {
 
   render() {
     return (
-      <div>
-        Counter:{this.state.counter}
+      <div className="container">
+        <div className="counter">Counter</div>
+        <div className="count">{this.state.counter}</div>
+
         <div
+          className="plus__button"
           onClick={() => {
             this.setState({
               counter: this.state.counter + 1,

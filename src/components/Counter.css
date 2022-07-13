@@ -1,0 +1,27 @@
+.container {
+  background-color: lightgray;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  font-size: 100px;
+}
+
+.counter {
+  font-size: 30px;
+}
+
+.plus__button {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
