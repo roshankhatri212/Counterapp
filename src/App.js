@@ -1,8 +1,8 @@
 import "./App.css";
-import { Counter } from "./components/Counter";
+import  Container from "../src/container/Container";
 
 function App() {
-  return <Counter />;
+  return <Container/>;
 }
 
 export default App;

@@ -25,3 +25,11 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.minus__button {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}

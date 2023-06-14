@@ -1,4 +1,6 @@
+
 import React, { Component } from "react";
+import "./Counter.css";
 
 class Counter extends Component {
   constructor(props) {
@@ -7,22 +9,39 @@ class Counter extends Component {
       counter: 0,
     };
   }
+  plusFunction = () => {
+    this.setState({
+      counter: this.state.counter +1,
+
+    });
+
+  }
+
+  minusFunction = () => {
+    this.setState({
+      counter: this.state.counter -1,
+
+    });
+
+  }
 
   render() {
     return (
       <div className="container">
         <div className="counter">Counter</div>
         <div className="count">{this.state.counter}</div>
-
         <div
           className="plus__button"
-          onClick={() => {
-            this.setState({
-              counter: this.state.counter + 1,
-            });
-          }}
+          onClick={this.plusFunction}
         >
           +
+        </div>
+
+        <div
+          className="minus__button"
+          onClick={this.minusFunction}
+        >
+          -
         </div>
       </div>
     );
