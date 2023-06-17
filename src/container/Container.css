@@ -27,3 +27,11 @@
     background-color:violet;
     margin-left: 1rem;
   }
+
+  .circles {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    margin-left: 1rem;
+  }
