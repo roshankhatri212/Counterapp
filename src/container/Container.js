@@ -8,6 +8,7 @@ const Container=()=> {
         <div className="square"></div>
         <div className="squares"></div>
         <div className="circles"></div>
+        <div className="circle"></div>
         
         </div>
     )
